@@ -1,0 +1,118 @@
+.fluid{
+  margin-right: 0 !important;
+}
+
+body {
+  background-color: #d1d1d1;
+}
+
+.name {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+#navbar {
+  background-color: blue;
+  color: white;
+  margin: 0;
+}
+
+
+
+.btn {
+  height: 40px;
+  width: 40px;
+}
+
+.follow {
+  text-align: center;
+}
+
+button {
+  margin: 1%;
+}
+
+
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.container{
+margin: 0 ;
+
+}
+
+.second{
+  height: 50px;
+}
+
+.navbar {
+  background-color: blue;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.title {
+  text-align: center;
+  display: inline;
+}
+
+.text {
+  color: #222222;
+}
+
+.info {
+  list-style-type: none;
+}
+
+.download_btn {
+  background: blue;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 20px;
+  height: 40px;
+  width: 325px;
+  margin-top: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: "Yellowtail", cursive;
+  overflow: hidden;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.row {
+  margin: 10px ;
+  padding-top: 5px;
+}
+
+
+.presentation {
+  background-color: white;
+  padding-top: 50px;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.picture {
+  height: 300px;
+  width: 325px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-right: 0;
+}
+
+.testimonial-image {
+  margin: 0;
+  height: 400px;
+  width: 500px;
+}
