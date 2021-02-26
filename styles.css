@@ -1,19 +1,21 @@
+
 .fluid{
-  margin-right: 0 !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
   background-color: #d1d1d1;
 }
 
-.name {
+.navbar-brand {
   font-family: 'Lobster', cursive;
   font-size: 30px;
 }
 
-#navbar {
+.navbar {
   background-color: blue;
-  color: white;
+  color: black;
   margin: 0;
 }
 
@@ -39,19 +41,18 @@ table, th, td {
   text-align: center;
 }
 
-.container{
-margin: 0 ;
-
-}
 
 .second{
   height: 50px;
 }
 
+.navbar-collapse{
+  width: 36%;
+}
+
 .navbar {
   background-color: blue;
-  width: 100%;
-  margin-bottom: 40px;
+margin-bottom: 40px;
 }
 
 .title {
@@ -76,7 +77,7 @@ margin: 0 ;
   height: 40px;
   width: 325px;
   margin-top: 5px;
-  color: white;
+  color: black;
   font-size: 18px;
   font-family: "Yellowtail", cursive;
   overflow: hidden;
@@ -99,6 +100,7 @@ table, th, td {
 
 .nav-link {
   padding: 0;
+  color: black;
 }
 
 .picture {
