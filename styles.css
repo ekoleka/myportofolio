@@ -46,6 +46,7 @@ table, th, td {
   height: 50px;
 }
 
+
 .navbar-collapse{
   width: 36%;
 }
@@ -76,6 +77,7 @@ margin-bottom: 40px;
   border-radius: 20px;
   height: 40px;
   width: 325px;
+
   margin-top: 5px;
   color: black;
   font-size: 18px;
@@ -88,14 +90,28 @@ table, th, td {
 }
 
 .row {
-  margin: 10px ;
-  padding-top: 5px;
+  margin-top: 10px ;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 }
 
+.skills{
+  padding-bottom: 30px;
+}
+
+.progress{
+  height: 25px;
+}
+
+.progress-bar{
+  background-color: #FEC609;
+}
 
 .presentation {
   background-color: white;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .nav-link {
