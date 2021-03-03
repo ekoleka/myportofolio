@@ -143,12 +143,12 @@ a{
 }
 
 .progress-bar{
-  background-color: #FEC609;
+  background-color: blue;
 }
 
 .presentation {
   background-color: white;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
