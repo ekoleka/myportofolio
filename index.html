@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title> EKoleka</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -18,40 +17,43 @@
 </head>
 
 <body>
-  <div class="container fluid">
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Elvis Koleka </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skill</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
-            </li>
-          </ul>
-        </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Elvis Koleka </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="span" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 
   <div class="container main container white">
 
 
     <div class="row">
 
-      <div class="col-5 presentation">
+      <div class="col-md-6 presentation">
         <div class="person_img">
           <img class="picture" src="ID.jpg" alt="">
         </div>
@@ -62,7 +64,7 @@
 
       <br>
 
-      <div class="col-7 presentation">
+      <div class="col-md-6 presentation">
 
         <h2 class="title" id="About">Hi! My name is Elvis Koleka. This is my resume.</h1>
 
@@ -90,12 +92,12 @@
               <br>
               <li>Gender: Male</li>
             </ul>
-            <button type="button" class="btn btn-outline-success"><i class="fab fa-whatsapp"></i> </button>
-            <button type="button" class="btn btn-outline-info"><i class="fab fa-linkedin-in"></i> </button>
-            <a type="button" class="btn btn-outline-primary" href="https://www.facebook.com/ekoleka" target="_blank"><i class="fab fa-facebook-f"></i> </a>
-            <button type="button" class="btn btn-outline-danger" href="https://www.instagram.com/ekoleka"><i class="fab fa-instagram" target="_blank"></i> </button>
-            <button type="button" class="btn btn-outline-primary"><i class="fab fa-twitter" target="_blank"></i> </button>
-            <button type="button" class="btn btn-outline-danger"><i class="fab fa-google-plus-g" target="_blank"></i> </button>
+            <a type="button" class="btn btn-outline-success" href="https://api.whatsapp.com/send?phone=355682084226" target="_blank"><i class="fab fa-whatsapp"></i> </a>
+            <a type="button" class="btn social btn-outline-info" href="https://www.linkedin.com/in/ekoleka/" target="_blank"><i class="fab fa-linkedin-in"></i> </a>
+            <a type="button" class="btn social btn-outline-primary" href="https://www.facebook.com/ekoleka" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+            <a type="button" class="btn social btn-outline-danger" href="https://www.instagram.com/ekoleka"><i class="fab fa-instagram" target="_blank"></i> </a>
+            <a type="button" class="btn social btn-outline-primary" href="https://twitter.com/ElvisKoleka"><i class="fab fa-twitter" target="_blank"></i> </a>
+            <a type="button" class="btn social btn-outline-danger" href="https://www.pinterest.com/ekoleka/"><i class="fab fa-pinterest" target="_blank"></i> </a>
 
           </div>
       </div>
@@ -425,19 +427,88 @@
 
 
 
-  <div class="container white">
-    <h2 id="Contacts">Contacts</h3>
-      <div class="col-12">
+  <div class="container my_experience pad white" id="experience">
+    <div class="main-title">
+      <h2>CONTACTS</h2>
+    </div>
+    <div class="container-fluid contacts_inner_area">
+      <div class="row">
 
 
-
-        <button type="button" class="btn btn-outline-success"><i class="fab fa-whatsapp"></i> </button>
-        <button type="button" class="btn btn-outline-info"><i class="fab fa-linkedin-in"></i> </button>
-        <button type="button" class="btn btn-outline-primary"><i class="fab fa-facebook-f"></i> </button>
-        <button type="button" class="btn btn-outline-danger"><i class="fab fa-instagram"></i> </button>
-        <button type="button" class="btn btn-outline-primary"><i class="fab fa-twitter"></i> </button>
-        <button type="button" class="btn btn-outline-danger"><i class="fab fa-google-plus-g"></i> </button>
+        <div class="col-md-6">
+          <div class="container-fliud">
+            <div class="contact-title">
+              <h3>CONTACT INFO</h3>
+            </div>
+            <p class="contact-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="contact-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.</p>
+            <div class="media">
+              <div class="media-body">
+                <button type="button" class="btn btn-primary" name="button"><i class="fas fa-map-marker-alt"></i></button>
+              </div>
+              <div class="media-body">
+                <h4>ADDRESS</h4>
+                <p>Rr. Ali Demi</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-body">
+                <button type="button" class="btn btn-primary" name="button"><i class="fa fa-phone"></i></button>
+              </div>
+              <div class="media-body">
+                <h4>PHONE</h4>
+                <p>068 12345678</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-body">
+                <button type="button" class="btn btn-primary" name="button"><i class="fa fa-phone"></i></button>
+              </div>
+              <div class="media-body">
+                <h4>PHONE</h4>
+                <p>ekoleka@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="container-fluid">
+            <div class="contact-title">
+              <h3>Send Message</h3>
+            </div>
+            <form action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+              <div class="form-group col-md-12">
+                <input type="text" class="form-control" name="name" id="name" placeholder="First Name*">
+              </div>
+              <div class="form-group col-md-12">
+                <input type="text" class="form-control" name="last" id="last" placeholder="Last Name*">
+              </div>
+              <div class="form-group col-md-12">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
+              </div>
+              <div class="form-group col-md-12">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+              </div>
+              <div class="form-group col-md-12">
+                <textarea class="form-control" rows="1" id="message" name="message" placeholder="Write Message"></textarea>
+              </div>
+              <div class="form-group col-md-12">
+                <button class="btn btn-default contact_btn" type="submit"><span>Send Massage</span></button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
+    </div>
+
+    <a type="button" class="btn btn-outline-success" href="https://api.whatsapp.com/send?phone=355682084226" target="_blank"><i class="fab fa-whatsapp"></i> </a>
+    <a type="button" class="btn social-2 btn-outline-info" href="https://www.linkedin.com/in/ekoleka/" target="_blank"><i class="fab fa-linkedin-in"></i> </a>
+    <a type="button" class="btn social-2 btn-outline-primary" href="https://www.facebook.com/ekoleka" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+    <a type="button" class="btn social-2 btn-outline-danger" href="https://www.instagram.com/ekoleka"><i class="fab fa-instagram" target="_blank"></i> </a>
+    <a type="button" class="btn social-2 btn-outline-primary" href="https://twitter.com/ElvisKoleka"><i class="fab fa-twitter" target="_blank"></i> </a>
+    <a type="button" class="btn social-2 btn-outline-danger" href="https://www.pinterest.com/ekoleka/"><i class="fab fa-pinterest" target="_blank"></i> </a>
   </div>
 
 
