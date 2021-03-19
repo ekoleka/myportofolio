@@ -32,10 +32,10 @@ body {
 }
 
 .media-left {
-margin-right: 0
+  margin-right: 0
 }
 
-.media-body{
+.media-body {
   display: table-cell;
   vertical-align: top;
   margin-left: 10px;
@@ -99,62 +99,62 @@ table, th, td {
   position: absolute;
 }
 
-.social{
+.social {
   margin-left: 66px;
 }
 
-.social-2{
+.social-2 {
   margin-left: 184px;
 }
 
-.form-group{
+.form-group {
   margin-bottom: 20px;
 }
 
-input{
+input {
   width: 100%;
-    box-shadow: none;
-    outline: none;
-    text-shadow: none;
-    border: 1px solid #dfdfdf;
-    border-radius: 0px;
-    padding: 0px 15px;
-    height: 50px;
-    font-size: 14px;
-    color: #999999;
-    font-family: "Raleway", sans-serif;
+  box-shadow: none;
+  outline: none;
+  text-shadow: none;
+  border: 1px solid #dfdfdf;
+  border-radius: 0px;
+  padding: 0px 15px;
+  height: 50px;
+  font-size: 14px;
+  color: #999999;
+  font-family: "Raleway", sans-serif;
 }
 
-textarea{
+textarea {
   width: 100%;
-    box-shadow: none;
-    outline: none;
-    text-shadow: none;
-    border: 1px solid #dfdfdf;
-    border-radius: 0px;
-    padding: 20px 15px 0px 15px;
-    height: 120px;
-    font-size: 14px;
-    color: #999999;
-    resize: none;
-    font-family: "Raleway", sans-serif;
+  box-shadow: none;
+  outline: none;
+  text-shadow: none;
+  border: 1px solid #dfdfdf;
+  border-radius: 0px;
+  padding: 20px 15px 0px 15px;
+  height: 120px;
+  font-size: 14px;
+  color: #999999;
+  resize: none;
+  font-family: "Raleway", sans-serif;
 }
 
-.contact_btn{
+.contact_btn {
   max-width: 140px;
-    display: block;
-    line-height: 40px;
-    color: #fff;
-    font-family: "Raleway", sans-serif;
-    box-shadow: none !important;
-    outline: none !important;
-    border: none;
-    border-radius: 0px;
-    background: blue;
-    width: 100%;
-    padding: 0px;
-    position: relative;
-    overflow: hidden;
+  display: block;
+  line-height: 40px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none;
+  border-radius: 0px;
+  background: blue;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
 }
 
 .row {
@@ -183,33 +183,21 @@ textarea{
   position: relative;
 }
 
-.education_item:before {
-  content: attr(data-line);
+.vl {
+  border-left: 6px solid blue;
+  height: 1494px;
   position: absolute;
-  right: 558px;
-  top: 0px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: 4px solid blue;
-  text-align: center;
-  color: #fff;
-  line-height: 43px;
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background: white;
+  left: 50%;
+  margin-left: 0;
+  top: 0;
 }
 
-.education_item:after {
-  content: "";
-  background: blue;
-  height: 4px;
+.vertical {
+  border-left: 6px solid blue;
+  height: 1480px;
   position: absolute;
-  left: -20px;
-  top: 0px;
-  width: 119%;
+  left: 50%;
+  margin-left: 0;
 }
 
 a {
@@ -319,7 +307,7 @@ a {
   padding-bottom: 20px;
 }
 
- .btn-primary {
+.btn-primary {
   height: 60px;
   width: 60px;
   background: blue;
