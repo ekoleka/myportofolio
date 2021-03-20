@@ -288,7 +288,7 @@ textarea {
   z-index: 2;
 }
 
-.expereince_item:before {
+.experience_item:before {
    content: attr(data-line);
    position: absolute;
    right: 472px;
