@@ -179,17 +179,170 @@ textarea {
 }
 
 .education_item {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
   margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 80px;
   position: relative;
+  z-index: 2;
+}
+
+.education_item_2 {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 80px;
+  position: relative;
+  z-index: 2;
 }
 
 .vl {
   border-left: 6px solid blue;
-  height: 1494px;
+  height: 1480px;
   position: absolute;
   left: 50%;
   margin-left: 0;
   top: 0;
+}
+
+ .education_item:before {
+    content: attr(data-line);
+    position: absolute;
+    right: 472px;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid blue;
+    text-align: center;
+    color: #fff;
+    line-height: 43px;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: blue;
+}
+.education_item_2:before {
+   content: attr(data-line);
+   position: absolute;
+   right: -120px;
+   top: 0px;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   border: 4px solid blue;
+   text-align: center;
+   color: #fff;
+   line-height: 43px;
+   font-family: "Raleway", sans-serif;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   background: blue;
+}
+
+.education_item::after {
+  content: "";
+  background: blue;
+  height: 4px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 119%;
+}
+
+.education_item_2::after {
+  content: "";
+  background: blue;
+  height: 4px;
+  position: absolute;
+  right: -95px;
+  top: 0px;
+  width: 122.5%;
+}
+
+.experience_item {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.experience_item_2 {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.expereince_item:before {
+   content: attr(data-line);
+   position: absolute;
+   right: 472px;
+   top: 0px;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   border: 4px solid blue;
+   text-align: center;
+   color: #fff;
+   line-height: 43px;
+   font-family: "Raleway", sans-serif;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   background: blue;
+}
+.experience_item_2:before {
+  content: attr(data-line);
+  position: absolute;
+  right: -120px;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid blue;
+  text-align: center;
+  color: #fff;
+  line-height: 43px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: blue;
+}
+
+.experience_item::after {
+  content: "";
+  background: blue;
+  height: 4px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 119%;
+}
+
+.experience_item_2::after {
+  content: "";
+  background: blue;
+  height: 4px;
+  position: absolute;
+  right: -95px;
+  top: 0px;
+  width: 122.5%;
 }
 
 .vertical {
@@ -239,11 +392,19 @@ a {
   padding-left: 0;
 }
 
+svg{
+  margin-bottom: 5px;
+}
+
 #education {
   background-color: #d1d1d1;
 }
 
 #experience {
+  background-color: #d1d1d1;
+}
+
+#contacts {
   background-color: #d1d1d1;
 }
 
