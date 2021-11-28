@@ -38,7 +38,13 @@ body {
   }
 
   .education_item {
-    margin-left: 40px;
+    width:100%;
+  }
+  .experience_item {
+    width:100%;
+  }
+  .experience_item_2 {
+    width:100%;
   }
 
   .vl {
@@ -82,8 +88,8 @@ body {
     display: none;
   }
 
-  .education_item{
-
+  .education_item_2{
+    width:100%;
   }
 }
 
