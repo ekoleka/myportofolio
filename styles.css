@@ -40,12 +40,6 @@ body {
     margin: 0px;
   }
   
-  @media (max-width: 1028px){
-    .row{
-      display: block;
-      max-width: 100%;
-    }
-  }
 
   .vl {
     display: none;
