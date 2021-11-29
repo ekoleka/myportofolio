@@ -11,10 +11,6 @@ body {
   .navbar {
     max-width: 100% !important;
   }
-  .item{
-    display: block;
-    max-width: 100%;
-  }
 }
 
 @media (max-width: 1028px) {
@@ -44,7 +40,12 @@ body {
     margin: 0px;
   }
   
-  
+  @media (max-width: 1028px){
+    .row{
+      display: block;
+      max-width: 100%;
+    }
+  }
 
   .vl {
     display: none;
