@@ -12,19 +12,19 @@ body {
     max-width: 100% !important;
   }
   .education_item{
-    position: absolute;
+    position: relative;
     width: 100%;
   }
   .education_item_2{
-    position: absolute;
+    position: relative;
     width: 100%;
   }
   .experience_item{
-    position: absolute;
+    position: relative;
     width: 100%;
   }
   .experience_item_2{
-    position: absolute;
+    position: relative;
     width: 100%;
   }
 }
@@ -52,7 +52,7 @@ body {
   html, body {
     margin: 0px;
   }
-  
+
 
   .vl {
     display: none;
@@ -399,7 +399,7 @@ textarea {
 .experience_item_2:before {
   content: attr(data-line);
   position: absolute;
-  right: -55px;
+  right: -119px;
   top: 0px;
   height: 50px;
   width: 50px;
@@ -430,14 +430,14 @@ textarea {
   background: blue;
   height: 4px;
   position: absolute;
-  right: -30px;
+  right: -99px;
   top: 0px;
-  width: 107%;
+  width: 120%;
 }
 
 .vertical {
   border-left: 6px solid blue;
-  height: 2950px;
+  height: 2920px;
   position: absolute;
   left: 50%;
   margin-left: 0;
@@ -486,17 +486,6 @@ svg {
   margin-bottom: 5px;
 }
 
-#Education {
-  background-color: #d1d1d1;
-}
-
-#Experience {
-  background-color: #d1d1d1;
-}
-
-#Contacts {
-  background-color: #d1d1d1;
-}
 
 .skills {
   padding-bottom: 30px;
