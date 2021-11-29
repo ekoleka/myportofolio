@@ -32,6 +32,9 @@ body {
   .container {
     max-width: 100%;
   }
+  .col-md-6{
+    display:none;
+  }
 
   html, body {
     margin: 0px;
@@ -64,20 +67,19 @@ body {
   }
 
   .education_item:before {
-    left: 205px;
+    display: none;
   }
 
   .education_item_2:before {
-    top: 30px;
-    left: 205px;
+    display: none;
   }
 
   .experience_item:before {
-    left: 205px;
+    display: none;
   }
 
   .experience_item_2:before {
-    left: 205px;
+   display: none;
   }
 
   .experience_item:after {
