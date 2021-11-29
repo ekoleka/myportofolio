@@ -11,8 +11,9 @@ body {
   .navbar {
     max-width: 100% !important;
   }
-  .row{
+  .item{
     display: block;
+    width: 100%;
   }
 }
 
