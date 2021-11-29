@@ -11,6 +11,9 @@ body {
   .navbar {
     max-width: 100% !important;
   }
+  .row{
+    display: block;
+  }
 }
 
 @media (max-width: 1028px) {
@@ -81,10 +84,6 @@ body {
   .experience_item_2:after {
     display: none;
   }
-  .row{
-   width: 100%;
-  }
-  
 }
 
 .navbar-brand {
