@@ -11,7 +11,19 @@ body {
   .navbar {
     max-width: 100% !important;
   }
-  .item{
+  .education_item{
+    position: absolute;
+    width: 100%;
+  }
+  .education_item_2{
+    position: absolute;
+    width: 100%;
+  }
+  .experience_item{
+    position: absolute;
+    width: 100%;
+  }
+  .experience_item_2{
     position: absolute;
     width: 100%;
   }
