@@ -39,16 +39,8 @@ body {
   html, body {
     margin: 0px;
   }
-
-  .education_item {
-    width:100%;
-  }
-  .experience_item {
-    width:100%;
-  }
-  .experience_item_2 {
-    width:100%;
-  }
+  
+  
 
   .vl {
     display: none;
@@ -89,10 +81,10 @@ body {
   .experience_item_2:after {
     display: none;
   }
-
-  .education_item_2{
-    width:100%;
+  .row{
+   width: 100%;
   }
+  
 }
 
 .navbar-brand {
