@@ -11,6 +11,10 @@ body {
   .navbar {
     max-width: 100% !important;
   }
+  .item{
+    position: absolute;
+    width: 100%;
+  }
 }
 
 @media (max-width: 1028px) {
@@ -31,9 +35,6 @@ body {
 @media (max-width: 1028px) {
   .container {
     max-width: 100%;
-  }
-  .col-md-6{
-    display:none;
   }
 
   html, body {
