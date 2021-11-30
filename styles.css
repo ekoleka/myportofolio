@@ -27,6 +27,9 @@ body {
     position: relative;
     width: 100%;
   }
+  .item{
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 1028px) {
@@ -275,6 +278,7 @@ textarea {
   margin-left: 80px;
   position: relative;
   z-index: 2;
+  border: 2px solid #d1d1d1;
 }
 
 .education_item_2 {
@@ -286,6 +290,7 @@ textarea {
   margin-left: 80px;
   position: relative;
   z-index: 2;
+  border: 2px solid #d1d1d1;
 }
 
 .vl {
@@ -364,6 +369,7 @@ textarea {
   margin-left: 80px;
   position: relative;
   z-index: 2;
+  border: 2px solid #d1d1d1;
 }
 
 .experience_item_2 {
@@ -375,6 +381,7 @@ textarea {
   margin-left: 80px;
   position: relative;
   z-index: 2;
+  border: 2px solid #d1d1d1;
 }
 
 .experience_item:before {
